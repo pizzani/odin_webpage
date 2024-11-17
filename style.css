@@ -84,6 +84,7 @@ nav ul li {
 .figures {
     display: flex;
     gap: 5%;
+    flex-wrap: wrap;
     padding-left: 12%;
     padding-right: 12%;
     padding-top: 5%;
