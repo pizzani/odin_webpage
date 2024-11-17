@@ -81,17 +81,28 @@ nav ul li {
     height: auto;
 }
 
-.figures {
-    display: flex;
-    gap: 5%;
-    flex-wrap: wrap;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 5%;
+.ram_info {
+    padding-top: 1%;
     padding-bottom: 5%;
 }
 
-.ram_info figure img {
+.figures {
+    padding-top: 5%;
+    display: flex;
+    justify-content:space-around;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+.ram_info figure {
+    text-align: center;
     width: 200px;
     height: auto;
+}
+
+.ram_info h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 4%;
 }
